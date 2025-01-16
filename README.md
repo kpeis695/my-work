@@ -47,7 +47,7 @@ Add the following line to the crontab file:
 # or with LLM
 0 6 * * * cd /path/to/your/repo && FANCY_JOB_USE_LLM=true uv run python update_number.py
 ```
-
+h
 This will initially run the script at 6am the next day.
 
 ## Usage
