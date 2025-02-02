@@ -3,7 +3,7 @@
 A Python script that automatically increments a number stored in a text file, commits the change to a Git repository, and updates a cron job to execute the script at a new random time each day. This ensures a continuous daily commit streak on GitHub or can be used to track sequential values dynamically. The script reads the current number from the file, increments it, saves the updated value, stages and commits the change with a timestamped message, then modifies the crontab to schedule the script at a different randomized time within the next 24 hours. Ideal for automating daily updates while maintaining unpredictability in execution timing.
 
 ## Setup
-
+  
 1. Clone this repository:
     
 ```bash
