@@ -37,9 +37,9 @@ FANCY_JOB_USE_LLM=true uv run python update_number.py
 3. Setup a cron job to run the script daily:
 
 ```bash
-crontab -e
-```
-
+crontab -e 
+``` 
+ 
 Add the following line to the crontab file:
 
 ```bash
